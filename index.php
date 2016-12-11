@@ -8,3 +8,4 @@ $param = [
 $url_query = http_build_query($param);
 $login_url = $config['auth_url'].'authorize?'.$url_query
 ?>
+<a href="<?php echo $login_url?>">Sign Up</a>
